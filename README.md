@@ -21,6 +21,13 @@ This Java library provides utilities for ensuring idempotent method calls using 
 Include the following dependencies in your `pom.xml`:
 
 ```xml
+<repositories>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/sahinakyol/idempotent</url>
+        <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+</repositories>
 <dependency>
     <groupId>org.idempotent</groupId>
     <artifactId>idempotent</artifactId>
